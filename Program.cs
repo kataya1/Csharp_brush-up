@@ -36,8 +36,9 @@ namespace Csharpbasics
 
             // //math functions
             // Acos, Asin, Atan, Atan2, Cos, Cosh, Exp, Log, Sing, Sinh, Tan, Tanh
-            // Math.Abs(number) Math.(Ceiling, Floor, Max, Min, Pow, Round, Sqrt)
-            // Random rand = new Random(); rand.Next(1,11) //to generate a random number between 1 and 10
+            // Math.Abs(number) Math.(Ceiling, Floor, Ma x, Min, Pow, Round, Sqrt)
+            // Random rand = new Random(); rand.Next(1,11) //to generate a random number between 1 and 10(forget this)
+            // Random.Range(min,max)
             // Logical Operators: && || ^ !  // condionals < > == <= >=
 
             // // IF STATEMENT
