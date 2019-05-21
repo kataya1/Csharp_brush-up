@@ -327,6 +327,7 @@ namespace generics //generics
 }
 namespace CustomeTypes // or UniqueTypes
 {
+    //enums 😂
     // //enumerated types, gonna have sumpolic names and associated values. -i'm getting a python dictionary vibe here-
     // public enum Temperature{ // so tempreture is the name
     //     // and the rest is the values
@@ -336,25 +337,31 @@ namespace CustomeTypes // or UniqueTypes
     //     Boil
     //     //it's not exactly python dict
     // }
-    struct Customers// you might be asking why structs when we have classes, well fuck you and fuck off
-    {
-        private string name;
-        private double balance;
-        private int id;
 
-        public void createcust(string n, double b, int i){
-            name =n;
-            balance = b;
-            id = i;
-        }
-        //  LIKE A FUCKING MINI CLASS, I'M GONNA HAVE PIZZA
-        public void showCust(){
-            Console.WriteLine("Name is " + name);
-            Console.WriteLine("Balance " + balance);
-            Console.WriteLine("id " + id);
+    // //structs😜
+    // struct Customers// you might be asking why structs when we have classes, well fuck you and fuck off
+    // {
+    //     private string name;
+    //     private double balance;
+    //     private int id;
 
-        }
-    }
+    //     public void createcust(string n, double b, int i){
+    //         name =n;
+    //         balance = b;
+    //         id = i;
+    //     }
+    //     //  LIKE A FUCKING MINI CLASS, I'M GONNA HAVE PIZZA
+    //     public void showCust(){
+    //         Console.WriteLine("Name is " + name);
+    //         Console.WriteLine("Balance " + balance);
+    //         Console.WriteLine("id " + id);
+    //     }
+    // }
+
+    //deligates 🤷‍♀️🤷‍♂️ is used  to path method as arguments to other methods
+    // and a deligate can represet a method with similar return type and similar attripute list
+    delegate double GetSum(double num1, double num2);
+    // defining an anonymous method, you know what the rest is mal8y, mesh gaay fel emt7aan
 }
 
 namespace printer
@@ -407,10 +414,12 @@ namespace printer
             //         break;
             // }   
 
-            // structs 💋
-            Customers cust1 = new Customers();
-            cust1.createcust("Bob",42060,300);
-            cust1.showCust();
+            // // structs 💋
+            // Customers cust1 = new Customers();
+            // cust1.createcust("Bob",42060,300);
+            // cust1.showCust();
+
+
         }
     }
 }
